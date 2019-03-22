@@ -1,7 +1,7 @@
 {
   "server": {
-    "port": 3000,
-    "root_url": "http://localhost:3000"
+    "port": 80,
+    "root_url": "prelauncher.techloaf.io"
   },
   "database": {
     "development": {
