@@ -1,7 +1,7 @@
 {
   "server": {
     "port": 80,
-    "root_url": "https://prelauncher.techloaf.io"
+    "root_url": "https://subscribe.techloaf.io"
   },
   "database": {
     "development": {
