@@ -13,10 +13,10 @@ router
 			if (req.files.image) {params.image = "/uploads/" + req.files.image.name;}
 
 			models.Prize.create(params).then(prize => {
-				res.redirect("/prizes");
+				res.redirect("/c29afd5f57ab4232e54156f66b833ac9460936579dd53cd602fe5805010adee6c0512f9b");
 			}).catch(error => {
 				console.log(error);
-				res.redirect("/prizes");
+				res.redirect("/c29afd5f57ab4232e54156f66b833ac9460936579dd53cd602fe5805010adee6c0512f9b");
 			});
 		});
 
