@@ -1,8 +1,8 @@
 extends ../layout/application
 
 block meta
-	title Prelauncher node js
-	meta(content="Prelauncher node js", property="description")
+	title Techloaf Prelauncher
+	meta(content="Techloaf Prelauncher Campaign", property="description")
 
 block content
 	section#refer
@@ -11,18 +11,13 @@ block content
 		.col-md-5.col-md-offset-1.col-sm-6.hidden-xs.refer-left
 		.col-md-5.col-sm-6.col-xs-12
 			article
-				h1 Invite friends & Earn product
+				h1 Share TechLoaf and Earn that bread, you dirty whore 
 				h2 Share your unique link via email or social networks and earn prizes for each friend who signs up.
 			input.form-control(value= subscriber.referralURL())
 
 			#social-sharing
 				ul
-					li
-						a.ico-facebook(href="https://www.facebook.com/sharer/sharer.php?u=" + querystring.escape(root_url) + "&title=" + querystring.escape("Умный домофон"))
-							i.fa.fa-facebook-official
-					li
-						a.ico-twitter(href="https://twitter.com/intent/tweet?text=" + querystring.escape("Было бы круто, если бы дверь вашего подъезда открывалась автоматически при вашем приближении? Узнайте первыми!") + "&url=" + querystring.escape(root_url))
-							i.fa.fa-twitter
+
 							
 	aside.text-center#instructions
 		h4 Here's how it works
