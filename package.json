@@ -9,7 +9,7 @@
     "start": "node ./app"
   },
   "dependencies": {
-    "express-sslify",
+    "express-sslify" : "~1.2.0",
     "body-parser": "~1.15.1",
     "method-override": "~2.3.5",
     "express": "~4.12.4",
