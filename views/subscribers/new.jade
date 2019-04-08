@@ -1,17 +1,16 @@
 extends ../layout/application
 
 block meta
-	title Prelauncher
-	meta(content="Подпишись на обновления и получи ранний доступ к прими участие в закрытом бета-тестировании умного устройства Луоки для домофонных систем", property="description")
+	title Techloaf Prelauncher
 	
 block content
 	section#main.text-center
 		.cover
 			h1.cover-title. 
-				Referral
-				<span> Prelauch </span>
-				Campaign
-			h2.cover-subtitle Start your prelaunch referral campaign to gather thousands of emails before you even launch your e-commerce website.
+				It's
+				<span> Techloaf </span>
+				Time!
+			h2.cover-subtitle You wanna loaf with the big boys? Start here
 
 			#form-wrapper
 				form#new_user.form-horizontal(method="post", action="/subscribers")
@@ -20,26 +19,24 @@ block content
 						input(name="subscriber[referrer_id]", type="hidden", value= referrer_id)
 
 					.form-group
-						input.form-control(name="subscriber[email]", type="email", placeholder="Enter email address", required=true, autofocus=true)
+						input.form-control(name="subscriber[email]", type="email", placeholder="Who do you wanna spam?", required=true, autofocus=true)
 					.form-group
-						input.btn.btn-branded(type="submit", value="Step inside")
+						input.btn.btn-branded(type="submit", value="Feel the yeast rise")
 
 			#contact_icons
 				ul.contact-socials
 					li
-						a.foo_social.ico-facebook(href="#", title="Prelauncher in Facebook")
+						a.foo_social.ico-facebook(href="#", title="Techloaf in Facebook")
 							i.fa.fa-facebook
 					li
-						a.foo_social.ico-twitter(href="#" title="Prelauncher in Twitter")
+						a.foo_social.ico-twitter(href="#" title="Techloaf in Twitter")
 							i.fa.fa-twitter
 					li
-						a.foo_social.ico-google-plus(href="#", title="Prelauncher Google+")
+						a.foo_social.ico-google-plus(href="#", title="Techloaf Google+ (too bad no one uses that!)")
 							i.fa.fa-google-plus
 
 			footer
-				p.
-					Copyright © 2017
 
-				a(href="https://prelauncher.info", title="Prelaunch campaign") www.prelauncher.info
+				a(href="https://techloaf.io", title="Home Base") techloaf.io
 
 		
