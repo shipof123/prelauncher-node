@@ -1,18 +1,15 @@
 var bodyParser = require('body-parser');
 var express = require('express');
 var http = require('http');
-var enforce = require('express-sslify');
-var app = enforce();
+var app = express();
 var path = require("path");
 var methodOverride = require('method-override');
 var models = require('./models');
 var config = require(path.join(__dirname, './config/config.json'));
 var multer = require("multer");
-var http = require('http');
 
 var routes = require("./config/routes")
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'jade');
 
